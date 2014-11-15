@@ -44,7 +44,7 @@ fi
 # check files
 
 E4412_UBOOT=$2
-MKBL2=../mkbl2
+MKBL2=./mkbl2
 
 if [ ! -f ${E4412_UBOOT} ]; then
 	echo "Error: u-boot.bin NOT found, please build it & try again."
